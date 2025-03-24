@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  web-2:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8004:8004"
+
+    environment:
+      - DEBUG=1
+
+volumes:
+  postgres_data:

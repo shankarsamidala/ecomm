@@ -1,7 +1,7 @@
 version: '3.9'
 
 services:
-  web-2:
+  web-3:
     build: .
     volumes:
       - .:/app
